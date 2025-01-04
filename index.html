@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <title>Rt. 28 Diner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!-- HEADER STARTS HERE -->
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Menu</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Location</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Our Staff</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Follow Us!</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Cape Cod</a>
+                </li>
+            </ul>
+            <img src="img/logoDiner40px.png" alt="Logo da Alurabooks" class=container__imagem>
+        </div>
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class=container__imagem></a>
+            <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class=container__imagem></a>
+            <a href="#"><img src="img/Usuario.png" alt="Meu perfil" class=container__imagem></a>
+        </div>
+    </header>
+
+    <!-- FIRST BANNER -->
+    <section class="banner">
+        <h2 class="banner__titulo">A Breakfast Favorite!</h2>
+        <p class="banner__texto">Rt 28 Diner serves up fresh, hearty breakfasts, all-natural burgers, and crisp salads with a side of warm hospitality!</p>
+        <input type="search" class="banner__pesquisa" placeholder="928, Rt. 28, South Yarmouth">
+    </section>
+
+    <!-- PRIMEIRO CARROSSEL -->
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">New Menu !</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/smokedSalmon.png" loading="lazy"
+                        alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                <div class="swiper-slide"><img src="img/milkShake.png" loading="lazy"
+                        alt="Livro sobre liderança em design da alura books"></div>
+                <div class="swiper-slide"><img src="img/pumpkinShake.png" loading="lazy"
+                        alt="Livro sobre javascript assertivo da alurabooks"></div>
+                <div class="swiper-slide"><img src="img/chickenBurger.png" loading="lazy" alt="Livro Guia front end">
+                </div>
+                <div class="swiper-slide"><img src="img/bluePancake.png" loading="lazy" alt="Livro sobre portugol"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-slide" data-swiper-autoplay="2000">
+            </div>
+
+            <!-- PRIMEIRO CARD-->
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <img src="img/Estrelinhas.png" alt="Avaliação 5 estrelas">
+                        <h3 class="descrição__titulo">Our Guests Opinions</h3>
+                        <h2 class="descrição__titulo-livro">Kim D.</h2>
+                        <p class="descrição__texto">Very cool retro diner. Service was excellent. The best thick pancakes 🥞</p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/Perfil-escritora 1-1.png" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+
+            <!-- SEGUNDO CARROSSEL-->
+
+            <section class="carrossel">
+                <h2 class="carrossel__titulo">Best Sellers!</h2>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="img/smokedSalmon.png" loading="lazy"
+                            alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                    <div class="swiper-slide"><img src="img/milkShake.png" loading="lazy"
+                            alt="Livro sobre liderança em design da alura books"></div>
+                    <div class="swiper-slide"><img src="img/pumpkinShake.png" loading="lazy"
+                            alt="Livro sobre javascript assertivo da alurabooks"></div>
+                    <div class="swiper-slide"><img src="img/chickenBurger.png" loading="lazy" alt="Livro Guia front end">
+                    </div>
+                    <div class="swiper-slide"><img src="img/bluePancake.png" loading="lazy" alt="Livro sobre portugol"></div>
+                </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-slide" data-swiper-autoplay="2000">
+                    </div>
+
+                    <!-- SEGUNDO CARD-->
+
+                    <div class="card">
+                        <!-- 1º linha -->
+                        <div class="card__descrição">
+                            <!-- 1º coluna -->
+                            <div class="descrição">
+                                <h3 class="descrição__titulo">Our Guests Opinions</h3>
+                                <h2 class="descrição__titulo-livro">Mac M.</h2>
+                                <p class="descrição__texto">Great place to take a family for breakfast. Food was the best we had for breakfast all week. Extremely affordable. We will return.</p>
+                            </div>
+                            <!-- 2º coluna -->
+                            <img src="img/cliente2.png" class="descrição__imagem2">
+                        </div>
+
+                        <!-- 2º linha -->
+                        <div class="card__botões2">
+                            <!-- 1º coluna -->
+                            <ul class="botões">
+                                <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                                <li class="botões__item"><img src="img/Compras.svg"
+                                        alt="Adicionar no carrinho de compras"></li>
+                            </ul>
+                            <!-- 2º coluna -->
+                            <a href="#" class="botões__ancora2">Saiba mais</a>
+                        </div>
+                    </div>
+
+                    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+                    <script>
+                        const swiper = new Swiper('.swiper', {
+                            spaceBetween: 10,
+                            slidesPerView: 3,
+                            autoplay: {
+                                delay: 2000,
+                                disableOnInteraction: false,
+                            },
+                            pagination: {
+                                el: '.swiper-pagination',
+                                type: 'bullets',
+                            },
+                        });
+                    </script>
+
+                    <!-- FOOTER -->
+
+                    <footer class="rodape">
+                        <ul class="rodape__lista">
+                            <li class="lista__link">
+                                <a href="#">Lenguage</a>
+                            </li>
+                            <li class="lista__link">
+                                <a href="#">Compatibility</a>
+                            </li>
+                            <li class="lista__link">
+                                <a href="#">Contract and Signature</a>
+                            </li>
+                        </ul>
+                        <ul class="rodape__lista">
+                            <li class="lista__link">
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li class="lista__link">
+                                <a href="#">Redes Sociais</a>
+                            </li>
+                            <li class="lista__link">
+                                <a href="#">Sponsor Us!</a>
+                            </li>
+                        </ul>
+                        <p class="rodape__texto">® 2025 Rt28 Diner. All Rights Reserved.</p>
+                        <p class="rodape__texto">Do you need a Website? Call me (508)280-3055.</p>
+                    </footer>
+</body>
+
+</html>
+
+</html>
