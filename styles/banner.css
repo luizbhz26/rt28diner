@@ -1,5 +1,7 @@
 .banner {
-    background: var(--azul-degrade);
+    background: url("../img/banner.png");   
+    background-size: cover;  
+    background-repeat: no-repeat;
     color: var(--branco);
     text-align: center;
     padding: 2.5em 2em;
@@ -13,7 +15,8 @@
 .banner__texto{
     font-size: 14px;
     font-weight: 500;
-    margin: 1em 0;  
+    font-style: bold;
+    margin: 0.5em 0;
 }
 
 .banner__pesquisa {

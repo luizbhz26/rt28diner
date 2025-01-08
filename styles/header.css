@@ -13,6 +13,11 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    /* Header box building start here */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 0.8em;
+    padding: 0.3em;
 }
 
 .container {
@@ -21,7 +26,7 @@
 }
 
 .container__imagem {
-    padding: 0.5em;
+    padding: 0.6em;
 }
 
 .lista-menu {
@@ -29,6 +34,7 @@
     position: absolute;
     top: 100%;
     width: 60vw;
+    padding: 0.3em;
 }
 
 .container__botao:checked~.lista-menu {
@@ -53,7 +59,9 @@
     background-clip: text;
     text-transform: uppercase;
     text-decoration: none;
+    margin: 0.5em 0;
     padding: 1em;
+    margin-trim: 0.5em;
 }
 
 .container__botao {
