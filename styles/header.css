@@ -54,6 +54,8 @@
 
 .lista-menu__link {
     background: var(--azul-degrade);
+    margin: 0.8em;
+    padding: 0.3em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
